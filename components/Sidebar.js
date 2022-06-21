@@ -15,7 +15,7 @@ export default function Sidebar() {
   return (
     <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full">
       {/* Twitter Logo */}
-      <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
+      <div className="hoverEffect ml-2 p-0 hover:bg-blue-100 xl:px-1">
         <Image
           width="30"
           height="30"
@@ -53,11 +53,11 @@ export default function Sidebar() {
           src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
           alt="user-img"
         ></img>
-        <div className="leading-5">
-          <h4 className="font-bolt">John Smith</h4>
+        <div className="leading-5 hidden xl:inline">
+          <h4 className="font-bold">John Smith</h4>
           <p className="text-gray-500">@Johnsmith</p>
         </div>
-        <DotsHorizontalIcon className="h-5 xl:ml-8"></DotsHorizontalIcon>
+        <DotsHorizontalIcon className="h-5 xl:ml-8 hidden xl:inline"></DotsHorizontalIcon>
       </div>
     </div>
   );
