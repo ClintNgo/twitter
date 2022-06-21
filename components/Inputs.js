@@ -1,4 +1,5 @@
 import { EmojiHappyIcon, PhotographIcon } from "@heroicons/react/outline";
+import Post from "./Post";
 
 export default function Inputs() {
   return (
